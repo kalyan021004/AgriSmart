@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' ? 'https://your-app.vercel.app' : 'http://localhost:5173',
+  origin: process.env.NODE_ENV === 'production' ? 'https://agri-smart-virid.vercel.app' : 'http://localhost:5173',
   credentials: true,
 }));
 app.use(express.json());
