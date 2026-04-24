@@ -17,6 +17,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
+app.get('/api/health',(req,res)=>{
+    res.json({status:'ok'});
+})
 app.use('/api/users', require('./routes/userRoutes'));
 app.use('/api/weather', require('./routes/weatherRoutes'));
 
