@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom';
-import Sidebar from '../components/SideBar';
+import Sidebar from '../components/Sidebar';
 import Topbar from '../components/Topbar';
 import WeatherWidget from '../components/WeatherWidget';
 import { useAuth } from '../context/AuthContext';
